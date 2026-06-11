@@ -1,38 +1,138 @@
-<<<<<<< HEAD
-# Weather Data Analysis with NumPy
+# 🌦️ Weather Data Analysis Using NumPy
 
-This project analyzes weather data using Python and NumPy.
+## 📌 Overview
 
-## Project Files
+Weather Data Analysis is a Python-based project that utilizes NumPy to analyze and process weather-related datasets. The project performs statistical analysis on temperature, humidity, rainfall, and other weather parameters to identify trends, calculate averages, and generate meaningful insights from the data.
 
-- `main.py` - The main script for loading, processing, and analyzing weather data.
-- `weather_data.csv` - CSV file containing the weather dataset used for analysis.
-- `README.md` - Project overview and usage instructions.
+This project demonstrates the practical application of data analysis techniques using Python and NumPy for handling real-world weather datasets.
 
-## Overview
+---
 
-The project reads weather data from `weather_data.csv`, performs numerical analysis using NumPy, and provides summary statistics or visualizations depending on the script implementation.
+## 🚀 Features
 
-## How to Run
+* Analyze weather datasets efficiently using NumPy
+* Calculate average, maximum, and minimum temperatures
+* Perform statistical analysis on weather parameters
+* Generate meaningful insights from weather data
+* Fast numerical computations using NumPy arrays
+* Beginner-friendly implementation
 
-1. Install Python 3.x.
-2. Install NumPy if needed:
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* NumPy
+* CSV Dataset
+* VS Code
+
+---
+
+## 📂 Project Structure
+
+Weather-Data-Analysis/
+
+├── weather_analysis.py
+
+├── weather.csv
+
+├── README.md
+
+└── requirements.txt
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
 
 ```bash
-pip install numpy
+git clone https://github.com/suji2826/weather-data-analysis.git
 ```
 
-3. Run the script:
+Navigate to the project directory:
 
 ```bash
-python main.py
+cd weather-data-analysis
 ```
 
-## Notes
+Install the required dependencies:
 
-- Ensure `weather_data.csv` is in the same folder as `main.py`.
-- Update the script if you want to add more analysis or visualization features.
-=======
-# weather-data-analysis
-A Weather Data Analysis project developed using Python and NumPy to analyze and process weather-related datasets. The project performs statistical analysis on temperature, humidity, and other weather parameters to identify trends, calculate averages, and generate meaningful insights from real-world weather data.
->>>>>>> a0a0d42fc57f3be9f2040859f8720feb09c22099
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Usage
+
+Run the Python script:
+
+```bash
+python weather_analysis.py
+```
+
+The program will:
+
+1. Load the weather dataset
+2. Process weather records using NumPy
+3. Calculate statistical measures
+4. Analyze weather trends
+5. Display the results and insights
+
+---
+
+## 📊 Sample Analysis
+
+The project can analyze:
+
+* Average Temperature
+* Maximum Temperature
+* Minimum Temperature
+* Average Humidity
+* Rainfall Statistics
+* Weather Trends
+
+Example Output:
+
+```text
+Average Temperature: 28.5°C
+Maximum Temperature: 36°C
+Minimum Temperature: 22°C
+Average Humidity: 68%
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, you will learn:
+
+* Data Analysis using Python
+* NumPy Arrays and Operations
+* Statistical Calculations
+* Dataset Processing
+* Data Interpretation
+* Problem Solving with Numerical Computing
+
+---
+
+## 📈 Future Enhancements
+
+* Data Visualization using Matplotlib
+* Interactive Dashboard
+* Real-Time Weather Data Integration
+* Advanced Statistical Analysis
+* Machine Learning-based Weather Prediction
+* Web Application Deployment
+
+---
+
+## 👨‍💻 Author
+
+**Sujitha S**
+B.Tech Artificial Intelligence & Data Science (AI & DS)
+
+This mini project was developed during my internship at **CodeBind Technologies** as part of my practical learning experience in Python, Data Analysis, Artificial Intelligence, and Data Science.
+
+Through this project, I gained hands-on experience in data preprocessing, numerical computing with NumPy, statistical analysis, and extracting meaningful insights from weather datasets using Python.
