@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Weather Data Analysis with NumPy
 
 This project analyzes weather data using Python and NumPy.
@@ -31,3 +32,7 @@ python main.py
 
 - Ensure `weather_data.csv` is in the same folder as `main.py`.
 - Update the script if you want to add more analysis or visualization features.
+=======
+# weather-data-analysis
+A Weather Data Analysis project developed using Python and NumPy to analyze and process weather-related datasets. The project performs statistical analysis on temperature, humidity, and other weather parameters to identify trends, calculate averages, and generate meaningful insights from real-world weather data.
+>>>>>>> a0a0d42fc57f3be9f2040859f8720feb09c22099
